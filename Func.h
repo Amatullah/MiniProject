@@ -1,0 +1,27 @@
+
+char* mymemchr(char *str, char *ch, int no);
+int mymemcmp(char *str1, char *str2, int n);
+void mymemcpy(char *dest, char *src, int n);
+void mymemmove(char *dest, char *src, int n);
+void mymemset(char *str, char *ch, int n);
+void myswab(char *src, char *dest, int len);
+char* mystpcpy(char *dest, char *src);
+char* mystpncpy(char *dest, char *src, int n);
+char* mystrdup(char *src);
+char* mystrndup(char *src, int n);
+int mystrlen(char *str);
+char* mystrfry(char *str);
+char* mystrcat(char *dest, char *src);
+char* mystrchr(char *str, char *ch);
+int mystrcmp(char *str1, char *str2);
+char* mystrcpy(char *dest, char *src);
+int mystrcspn(char *str1, char *str2);
+char* mystrncat(char *dest, char *src, int n);
+int mystrncmp(char *str1, char *str2, int n);
+char* mystrncpy(char *dest, char *src, int n);
+char* mystrpbrk(char *str1, char *str2);
+char* mystrrchr(char *str, char *ch);
+char* mystrchrnul(char *str, char ch);
+int mystrspn(char *str1, char *str2);
+char* mystrstr(char *str1, char *str2);
+char* mystrtok(char *str, char *delim);

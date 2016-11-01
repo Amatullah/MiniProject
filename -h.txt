@@ -1,0 +1,32 @@
+			Comparison functions
+		memcmp		Compare Memory Blocks
+		strcmp		String Compare
+		strncmp 	Bounded String Compare
+
+			Concatenation functions
+		strcat		String Concatenation
+		strncat		Bounded String Concatenation
+
+			Copying functions
+		memcpy		Copy Memory Block
+		memmove		Copy Memory Block
+		strcpy		String Copy
+		strncpy		Bounded String Copy
+		stpcpy		Copies string and returns to end of str
+		stpncpy		Copies n-bytes.
+
+			Search functions
+		memchr		Search Memory Block for Character
+		strchr		Search String for Character
+		strchrnul	Searches for char and returns to the terminating null byte if chr not found.
+		strcspn 	Search String for Intial Span of Characters Not in Set
+		strpbrk 	Search String for One of a Set of Characters
+		strrchr 	Search String in Reverse for Character
+		strspn		Search String for Initial Span of Characters in Set
+		strstr		Search String for Substring
+		strtok		Search String for Token
+
+			Miscellaneous functions
+		memset		Initialize Memory Block
+		strlen		String Length
+		swab		swabs adjacent characters.
